@@ -24,7 +24,6 @@ namespace CourseApi.Models
         [MaxLength(100)]
         public string Professor { get; set; }
 
-        public ICollection<Student> Students { get; set; }
     }
 }
 
