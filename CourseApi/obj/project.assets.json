@@ -5157,19 +5157,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kinco\\.nuget\\packages\\": {}
+    "C:\\Users\\ceasa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kinco\\OneDrive\\Escritorio\\Examen Moviles\\Exam-Backend\\CourseApi\\CourseApi.csproj",
+      "projectUniqueName": "C:\\Users\\ceasa\\OneDrive\\Desktop\\Examen\\Exam-Backend\\CourseApi\\CourseApi.csproj",
       "projectName": "CourseApi",
-      "projectPath": "C:\\Users\\kinco\\OneDrive\\Escritorio\\Examen Moviles\\Exam-Backend\\CourseApi\\CourseApi.csproj",
-      "packagesPath": "C:\\Users\\kinco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kinco\\OneDrive\\Escritorio\\Examen Moviles\\Exam-Backend\\CourseApi\\obj\\",
+      "projectPath": "C:\\Users\\ceasa\\OneDrive\\Desktop\\Examen\\Exam-Backend\\CourseApi\\CourseApi.csproj",
+      "packagesPath": "C:\\Users\\ceasa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ceasa\\OneDrive\\Desktop\\Examen\\Exam-Backend\\CourseApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kinco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ceasa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5224,6 +5224,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5232,7 +5242,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
