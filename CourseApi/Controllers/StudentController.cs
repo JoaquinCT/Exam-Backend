@@ -32,6 +32,16 @@ namespace CourseApi.Controllers
             return Ok(student);
         }
 
+        [HttpGet("by-course/{courseId}")]
+        public IActionResult GetByCourseId(int courseId)
+        {
+            var students = _context.Students
+                                   .Where(s => s.CourseId == courseId)
+                                   .ToList();
+
+            return Ok(students);
+        }
+
         [HttpPost]
         public IActionResult Create([FromBody] Student student)
         {
