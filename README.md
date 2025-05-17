@@ -44,6 +44,10 @@ Ejecución:
 La URL donde se ejecuta la API se define en el archivo Properties/launchSettings.json.
 Debes cambiar el valor de "applicationUrl" dependiendo del dispositivo desde el que accederás a la API:
 
+    Para iniciar el API debes de navegar entre las carpetas y entrar a :CourseApi y una vez ahi darle el comando
+
+    dotnet watch run
+
     Si usas un emulador Android o navegas localmente: usa https://localhost:5292
 
     Si usas un celular u otro dispositivo en la misma red local: usa http://0.0.0.0:5292
